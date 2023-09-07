@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /*
- * main - Entry point of the program
+ * Main - Entry point of the program
  *
  * Description: Prints a message with proper grammar using printf
  *
