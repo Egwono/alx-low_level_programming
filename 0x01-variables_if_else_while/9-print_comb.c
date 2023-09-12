@@ -9,19 +9,15 @@
  */
 int main(void)
 {
-	int i, j;
+	int n;
 
-	for (i = 0; i < 10; i++)
+	for (n = 48; n < 58; n++)
 	{
-		for (j = 0; j < 10; j++)
+		putchar(n);
+		if (n != 57)
 		{
-			putchar('0' + i);
-			putchar('0' + j);
-			if (i != 9 || j != 9)
-			{
-				putchar(',');
-				putchar(' ');
-			}
+			putchar(',');
+			putchar(' ');
 		}
 	}
 	putchar('\n');
